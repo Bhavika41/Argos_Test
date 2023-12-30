@@ -1,0 +1,196 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-30T12:41:16.006Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3218016100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Add item into Cart",
+        "description": "",
+        "id": "add-to-cart;add-item-into-cart;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 863910100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 183115000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "as a user I am on home page",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDef.as_a_user_i_am_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1348498700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select the option for buying item as \"Technology\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Technology\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinitions.HomePageStepDef.i_select_the_option_for_buying_item_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 202097300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I navigate to \"Technology\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Technology\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.HomePageStepDef.i_navigate_to_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1893056900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select the item options \"Televisions and accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Televisions and accessories\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.HomePageStepDef.i_select_the_item_options(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 632135700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I navigate to \"Televisions and accessories\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Televisions and accessories\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.HomePageStepDef.i_navigate_to_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3332283500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select the item options \"Televisions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Televisions\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.HomePageStepDef.i_select_the_item_options(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31396200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I navigate to the \"Televisions\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Televisions\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.HomePageStepDef.i_navigate_to_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 575039100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select the price as \"£250 - £500\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"£250 - £500\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.HomePageStepDef.i_select_the_price_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62718300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I can view the correct product number",
+            "match": {
+              "location": "stepdefinitions.HomePageStepDef.i_can_view_the_correct_product_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add to cart",
+    "description": " As a user\n I am on argos homepage\n  so that i can look for product",
+    "id": "add-to-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/homePage.feature",
+    "tags": []
+  }
+]
